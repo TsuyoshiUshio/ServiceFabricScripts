@@ -30,6 +30,10 @@ Certificate URL
 https://idealvault.vault.azure.net:443/secrets/SfCluster/xxxxxxxxxxxxxxxx963
 Cert Thumprint:
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXX602
+For VSTS:Cluster Endpoint(Default):
+https://idealcluster.japaneast.cloudapp.azure.com:19000
+For VSTS:Client Certificate:
+XXXXXXXXXXX(...base64 strings...)
 ```
 
 Enjoy
