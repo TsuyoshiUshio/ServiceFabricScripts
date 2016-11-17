@@ -56,4 +56,8 @@ Write-Output $vaultSecret.Id
 Write-HOST "Cert Thumprint:"
 $cert = new-object System.Security.Cryptography.X509Certificates.X509Certificate2 $certfile.PSPath, $password
 Write-Output $cert.Thumbprint
+Write-HOST "For VSTS:Cluster Endpoint(Default):"
+Write-Output "https://$($ParameterJSON.SelfSignedCertificate.DnsName):19000"
+Write-HOST "For VSTS:Client Certificate:"
+Write-Output $base64
 
