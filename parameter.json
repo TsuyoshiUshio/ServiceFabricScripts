@@ -1,0 +1,13 @@
+{
+    "SelfSignedCertificate": {
+        "password": "<your password>",
+        "DnsName": "idealcluster.japaneast.cloudapp.azure.com",
+        "FileName": "SfCluster.pfx"
+    },
+    "KeyVault":{
+        "ResourceGroupName": "IdealKeyGroup",
+        "KeyName": "SfCluster",
+        "Location": "westus",
+        "VaultName": "idealVault"
+    }
+}
